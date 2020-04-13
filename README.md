@@ -1,5 +1,5 @@
 # MAMNet-Tensorflow-2
-This repository is an unofficial Tensorflow 2.0 implementation of the paper "MAMNet: Multi-path Adaptive Modulation Network for Image Super-Resolution". Official Tensorflow implementation by Junhyuk Kim is here >> [[Official MAMNet](https://github.com/junhyukk/MAMNet-Tensorflow)]{: target="_blank"} [[arXiv](https://arxiv.org/abs/1811.12043)]{: target="_blank"}
+This repository is an unofficial Tensorflow 2.0 implementation of the paper "MAMNet: Multi-path Adaptive Modulation Network for Image Super-Resolution". Official Tensorflow implementation by Junhyuk Kim is here >> [[Official MAMNet](https://github.com/junhyukk/MAMNet-Tensorflow){: target="_blank"}] [[arXiv](https://arxiv.org/abs/1811.12043){: target="_blank"}]
 
 ## Introduction
 ![teaser_image](figures/teaser_image.png)
