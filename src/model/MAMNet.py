@@ -1,6 +1,6 @@
 import math
 import tensorflow as tf
-from tensorflow.python.keras.layers import Add, Conv2D, Input, Lambda, concatenate
+from tensorflow.python.keras.layers import Conv2D, Input, Lambda
 from tensorflow.python.keras.models import Model
 
 from model.common import normalize, denormalize

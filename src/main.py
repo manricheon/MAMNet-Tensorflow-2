@@ -1,9 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 from importlib import import_module
-
 import tensorflow as tf
-from tensorflow.python.keras.models import Model
 
 from dataset import Dataset
 from trainer import MAMNetTrainer

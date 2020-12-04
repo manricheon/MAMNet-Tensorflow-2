@@ -1,9 +1,7 @@
 import math
 import tensorflow as tf
 from tensorflow.python.keras.layers import Add, Conv2D, Lambda, concatenate, ReLU, Dense
-from tensorflow.python.keras.models import Model
 from tensorflow.python.keras.initializers import GlorotUniform
-
 from model.common import pixel_shuffle
 
 

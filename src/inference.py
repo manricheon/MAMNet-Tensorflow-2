@@ -1,11 +1,6 @@
 import os
 from importlib import import_module
-import matplotlib.pyplot as plt
-
 import tensorflow as tf
-from tensorflow.keras.losses import MeanAbsoluteError
-from tensorflow.keras.optimizers.schedules import PiecewiseConstantDecay
-from tensorflow.keras.optimizers.schedules import ExponentialDecay
 
 from trainer import MAMNetTrainer
 from utils import load_image, plot_sample, save_image
@@ -51,7 +46,6 @@ def inference():
     inout_path = zip(input_path, output_path)
 
     # inference and save
-    whole_time = 0
     for in_name, out_name in inout_path:
         img = load_image(in_name)
         img_out = resolve_chop_single(trainer.model, img)

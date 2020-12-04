@@ -1,18 +1,13 @@
 import os
 import time
-import tensorflow as tf
 import numpy as np
-
-from model import evaluate, evaluate_chop, resolve_single, resolve_chop_single
-from model import common
-
-from tensorflow.keras.losses import MeanAbsoluteError
-from tensorflow.keras.losses import MeanSquaredError
+import tensorflow as tf
+from tensorflow.keras.losses import MeanAbsoluteError, MeanSquaredError
 from tensorflow.keras.metrics import Mean
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.optimizers.schedules import PiecewiseConstantDecay
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
 
+from model.common import *
 
 class Trainer:
     def __init__(self,
